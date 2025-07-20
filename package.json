@@ -1,6 +1,6 @@
 {
-  "name": "jsonresume-theme-dev-ats",
-  "version": "1.0.1",
+  "name": "jsonresume-theme-shanepelletier",
+  "version": "1.0.0",
   "description": "JSON Resume theme for developers",
   "keywords": [
     "jsonresume",
@@ -10,10 +10,10 @@
     "theme",
     "cv"
   ],
-  "author": "Ashique Kainote",
+  "author": "Shane Pelletier",
   "repository": {
     "type": "git",
-    "url": "https://github.com/asqrzk/jsonresume-theme-dev-ats"
+    "url": "https://github.com/shanepelletier/jsonresume-theme-shanepelletier"
   },
   "license": "MIT",
   "scripts": {
