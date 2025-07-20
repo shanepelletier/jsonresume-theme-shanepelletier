@@ -1,30 +1,6 @@
 # jsonresume-theme-dev-ats 
 
-This is the developer theme for [JSON Resume](http://jsonresume.org/), based off of [jsonresume-theme-engineering](https://www.npmjs.org/package/jsonresume-theme-engineering) and aims to implement the best practices for developer resumes with ATS compatibility.
-
-## Changes
-
-Added three sections - profiles, projects and certifications.
-
-Added print break compatibility for sections.
-
-Added new profiles design.
-
-Added designation to header.
-
-Added new sanitization for URL links.
-
-Added boldness to key terms, send wrapped inside strong tag.
-
-
-
-<p align="center">
-  <kbd>
-    <img src="https://github.com/asqrzk/jsonresume-theme-dev-ats/blob/main/resume.png?raw=true" alt="Rick Astley Resume"/>
-  </kbd>
-</p>
-
-## Getting started
+A theme for [JSON Resume](http://jsonresume.org/) based off of [jsonresume-theme-dev-ats](https://www.npmjs.com/package/jsonresume-theme-dev-ats) and others which aims to implement the best practices for developer resumes with ATS compatibility.
 
 To get started with theme development, this is what you'll need:
 
@@ -87,4 +63,4 @@ Contributions to the implementation of new functions or bug fixes are very welco
 
 ## License
 
-Available under [the MIT license](http://mths.be/mit).
+MIT
