@@ -12,12 +12,22 @@
         <span class="vertical-separator">{{phone}}</span>
         {{~/if}}
         {{#if location~}}{{#if location.city~}}{{#if location.countryCode~}}
-        <span class="vertical-separator">{{location.city}}, {{#if location.region~}}{{location.region}}{{~/if}}, {{formatCountryCode location.countryCode}}</span>
+        <span class="vertical-separator">{{location.city}}, {{#if location.region~}}{{location.region}}, {{~/if}} {{formatCountryCode location.countryCode}}</span>
         {{~/if}}{{~/if}}{{~/if}}
         {{#if url~}}
         <span class="vertical-separator">{{wrapURL url}}</span>
         {{~/if}}
     </div>
+    {{#if profiles.length}}
+    <div class="contact centered">
+        {{#each profiles}}
+        <span class="vertical-separator">
+            {{#if network}}{{#if username}}{{#unless url}}{{network}}: {{username}}{{/unless}}{{/if}}{{/if}}
+            {{#if network}}{{#if url}}{{url}}{{/if}}{{/if}}
+        </span>
+        {{/each}}
+    </div>
+    {{/if}}
     {{#if summary}}
     <div class="summary">
         <h2>Summary</h2>
