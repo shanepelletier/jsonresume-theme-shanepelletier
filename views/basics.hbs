@@ -23,7 +23,7 @@
         {{#each profiles}}
         <span class="vertical-separator">
             {{#if network}}{{#if username}}{{#unless url}}{{network}}: {{username}}{{/unless}}{{/if}}{{/if}}
-            {{#if network}}{{#if url}}{{url}}{{/if}}{{/if}}
+            {{#if network}}{{#if url}}{{wrapURL url}}{{/if}}{{/if}}
         </span>
         {{/each}}
     </div>
