@@ -1,4 +1,4 @@
-# jsonresume-theme-dev-ats 
+# jsonresume-theme-shanepelletier
 
 A theme for [JSON Resume](http://jsonresume.org/) based off of [jsonresume-theme-dev-ats](https://www.npmjs.com/package/jsonresume-theme-dev-ats) and others which aims to implement the best practices for developer resumes with ATS compatibility.
 
